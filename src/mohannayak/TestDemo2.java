@@ -19,7 +19,7 @@ public class TestDemo2 {
 		driver.get("https://google.com/");
 		String currenttitle=driver.getTitle();
 		Assert.assertTrue(driver.getTitle().matches("currenttitle"));
-		
+		System.out.println("WebAutomation");
 	}
 	
 	

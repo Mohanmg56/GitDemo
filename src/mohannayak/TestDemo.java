@@ -20,6 +20,9 @@ public class TestDemo {
 		System.out.println("One");
 		System.out.println("Two");
 		System.out.println("Three");
+		System.out.println("Four");
+		System.out.println("Five");
+		System.out.println("Six");
 		
 		//Assert.assertTrue(driver.getTitle().matches("currenttitle"));
 		
