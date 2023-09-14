@@ -17,7 +17,10 @@ public class TestDemo {
 		MutableCapabilities caps = new MutableCapabilities();
 		WebDriver driver= new RemoteWebDriver(new URL("https://hub.browserstack.com/wd/hub"),caps);
 		driver.get("https://rahulshettyacademy.com/");
-		System.out.println(driver.getTitle());
+		System.out.println("One");
+		System.out.println("Two");
+		System.out.println("Three");
+		
 		//Assert.assertTrue(driver.getTitle().matches("currenttitle"));
 		
 	}
