@@ -1,0 +1,55 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Suite</th></tr>
+<tr><td><a href="#t0">Test-2</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">11,105</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">Test-0</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">15,983</td><td></td><td></td></tr>
+<tr><td><a href="#t2">Testgoogle-0</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">15,439</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t3">Testgoogle-1</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">20,629</td><td></td><td></td></tr>
+<tr><td><a href="#t4">Testgoogle-2</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">13,898</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t5">Test-1</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">62,634</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">3</th><th class="num">0</th><th class="num">0</th><th class="num attn">3</th><th class="num">139,688</th><th colspan="2"></th></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test-2 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">mohannayak.TestDemo</td><td><a href="#m0">titleCheck</a></td><td rowspan="1">1694522344545</td><td rowspan="1">9339</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">Test-0 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">mohannayak.TestDemo</td><td><a href="#m1">titleCheck</a></td><td rowspan="1">1694522344544</td><td rowspan="1">14295</td></tr></tbody>
+<tbody id="t2"><tr><th colspan="4">Testgoogle-0 &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">mohannayak.TestDemo2</td><td><a href="#m2">titleCheck2</a></td><td rowspan="1">1694522358561</td><td rowspan="1">12650</td></tr></tbody>
+<tbody id="t3"><tr><th colspan="4">Testgoogle-1 &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">mohannayak.TestDemo2</td><td><a href="#m3">titleCheck2</a></td><td rowspan="1">1694522362615</td><td rowspan="1">19079</td></tr></tbody>
+<tbody id="t4"><tr><th colspan="4">Testgoogle-2 &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">mohannayak.TestDemo2</td><td><a href="#m4">titleCheck2</a></td><td rowspan="1">1694522376249</td><td rowspan="1">12279</td></tr></tbody>
+<tbody id="t5"><tr><th colspan="4">Test-1 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">mohannayak.TestDemo</td><td><a href="#m5">titleCheck</a></td><td rowspan="1">1694522344545</td><td rowspan="1">60938</td></tr></tbody>
+</table>
+<h2>Test-2</h2><h3 id="m0">mohannayak.TestDemo#titleCheck</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Test-0</h2><h3 id="m1">mohannayak.TestDemo#titleCheck</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Testgoogle-0</h2><h3 id="m2">mohannayak.TestDemo2#titleCheck2</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
+	at mohannayak.TestDemo2.titleCheck2(TestDemo2.java:21)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 22 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Testgoogle-1</h2><h3 id="m3">mohannayak.TestDemo2#titleCheck2</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
+	at mohannayak.TestDemo2.titleCheck2(TestDemo2.java:21)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 22 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Testgoogle-2</h2><h3 id="m4">mohannayak.TestDemo2#titleCheck2</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
+	at mohannayak.TestDemo2.titleCheck2(TestDemo2.java:21)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 22 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Test-1</h2><h3 id="m5">mohannayak.TestDemo#titleCheck</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

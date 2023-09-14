@@ -1,0 +1,20 @@
+userName: mohanmg_Am7HeX
+accessKey: stttudWmfqpGzZEwaBkX
+framework: testng
+platforms:
+  - os: Windows
+    osVersion: 10
+    browserName: Edge
+    browserVersion: 111.0
+  - os: Windows
+    osVersion: 10
+    browserName: Firefox
+    browserVersion: 116.0
+  - os: OS X
+    osVersion: Monterey
+    browserName: Chrome
+    browserVersion: 105.0
+parallelsPerPlatform: 1
+browserstackLocal: true
+buildName: browserstack-build-1
+projectName: BrowserStack Sample
