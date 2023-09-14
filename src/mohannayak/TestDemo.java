@@ -27,6 +27,22 @@ public class TestDemo {
 		//Assert.assertTrue(driver.getTitle().matches("currenttitle"));
 		
 	}
+	@Test
+	public void titleCheck1() throws MalformedURLException
+	{
+		MutableCapabilities caps = new MutableCapabilities();
+		WebDriver driver= new RemoteWebDriver(new URL("https://hub.browserstack.com/wd/hub"),caps);
+		driver.get("https://rahulshettyacademy.com/");
+		System.out.println("One");
+		System.out.println("Two");
+		System.out.println("Three");
+		System.out.println("Four");
+		System.out.println("Five");
+		System.out.println("Six");
+		
+		//Assert.assertTrue(driver.getTitle().matches("currenttitle"));
+		
+	}
 	
 	
 
